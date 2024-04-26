@@ -10,7 +10,6 @@ const Card = ({cardInfo}) => {
         setCardUser(userCard)
         setUserCard(cardUser)
     }
-
     return (
         <div className={classes.card}  onClick={handleClick}>
             <img src="https://cdn-icons-png.flaticon.com/512/9131/9131529.png" alt="" className='cardImg'/>
